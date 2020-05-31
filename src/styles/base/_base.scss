@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;  
+    font-size: $m-size;
+    background-color: #007b94;
+    width: 70%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: $m-size;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.container {
+    background-color: darkgray;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,25 @@
+.header {
+    background: gray;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+}
+
+
+.header__title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: beige;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: 45rem) {
+    .header {
+        margin-bottom: 30px;
+    }
+}
